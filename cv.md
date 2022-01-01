@@ -1,7 +1,7 @@
 **CV**
 ==
 
-![Photo](https://github.com/VTeramin/rsschool-cv/blob/main/IMG_F_01.jpg?raw=true)
+![Photo](https://github.com/VTeramin/rsschool-cv/blob/gh-pages/IMG_F_01.jpg?raw=true)
 
 Name:
 --

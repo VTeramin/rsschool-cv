@@ -13,55 +13,117 @@
 <body>
     <header class = "header">
         <div class="container">
-            <div class="left-part">
+            <div class="left-part-header">
                 <nav class="nav">
                     <ul class="nav-list">
-                      <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                      <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-                      <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                      <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-                      <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
-                      <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                      <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                      <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                      <li class="nav-item"><a href="#contacts" class="link">Contacts</a></li>
+                      <li class="nav-item"><a href="#summary" class="link">Summary</a></li>
+                      <li class="nav-item"><a href="#skills" class="link">Skills</a></li>
+                      <li class="nav-item"><a href="#code" class="link">Code</a></li>
+                      <li class="nav-item"><a href="#projects" class="link">Projects</a></li>
+                      <li class="nav-item"><a href="#education" class="link">Education</a></li>
+                      <li class="nav-item"><a href="#languages" class="link">Languages</a></li>
                     </ul>
                 </nav>
             </div>
-            <div class="right-part">
-                   <p class="name">Valery Voinilko</p>
+            <div class="right-part-header">
+                   <h1 class="name">Valery Voinilko</h1>
             </div>
         </div>
     </header>
     <main class = "main">
         <div class="container main-container">
-           <section class="section" id="profile">
-               <hi class="section-title"></hi>
-               <img src="./assets/img/avatar.jpg" alt="avatar">
-           </section>
-           <section class="section" id="contacts">
-               <h2 class="section-title"></h2>
-           </section>
-           <section class="section" id="summary">
-            <h2 class="section-title"></h2>
-           </section>
-           <section class="section" id="skills">
-            <h2 class="section-title"></h2>
-           </section>
-           <section class="section" id="code">
-            <h2 class="section-title"></h2>
-           </section>
-           <section class="section" id="courses">
-            <h2 class="section-title"></h2>
-           </section>
-           <section class="section" id="projects">
-            <h2 class="section-title"></h2>
-           </section>
-           <section class="section" id="education">
-            <h2 class="section-title"></h2>
-           </section>
-           <section class="section" id="languages">
-            <h2 class="section-title"></h2>
-           </section>
+            <div class="left-part-main">
+
+                <section class="section left" id="summary">
+                    <img class="img" src="IMG_F_01.jpg" alt="avatar" width="5120px" height="3840px">
+                </section>
+
+                <section class="section left" id="education">
+                    <div class="title-container left">
+                       <h2 class="section-title left">Education</h2>
+                    </div>
+                       <p class="section-element left education">
+                           <ol class="list">
+                               <li>Specialist in the field of customs and foreign economic activity,<br>  
+                                Belarusian National Technical University, Minsk, Graduated in 2020;  
+                                </li>
+                               <li>Completed HTML Academy course.</li>
+                           </ol>
+                       </p>
+                </section>
+                
+                <section class="section left" id="languages">
+                    <div class="title-container left">
+                       <h2 class="section-title left">Languages</h2>
+                    </div>
+                       <p class="section-element left languages">
+                           <ul class="list languages">
+                               <li>English: Intermediate (B1);</li>
+                               <li>Chinese: HSK2.</li>
+                           </ul>
+                       </p>
+                </section>
+
+                <section class="section left" id="skills">
+                    <div class="title-container left">
+                       <h2 class="section-title left">Skills</h2>
+                    </div>
+                       <p class="section-element left skills">A good base in HTML and CSS: confident use of flexboxes, grids and selectors. Basic skills in JavaScript and GIT.</p>
+                </section>
+
+                <section class="section left" id="contacts">
+                    <div class="title-container left">
+                       <h2 class="section-title left">Contacts</h2>
+                    </div>
+                       <p class="section-element left contacts">
+                        <ul class="list contacts">
+                            <li>email: vteramin@gmail.com</li>
+                            <li>discord: Teramin#5657</li>
+                            <li>telegram: https://t.me/vteramin</li>
+                        </ul>
+                       </p>
+                </section>
+
+            </div>
+            <div class="right-part-main">
+
+                <section class="section" id="summary">
+                    <div class="title-container">
+                       <h2 class="section-title">Summary</h2>
+                    </div>
+                       <p class="section-element summary">I have been working in the field of customs control for over a year. Made a decision to change the field of activity. Recently I started studying in the field of web development. I plan to level up my basic skills in HTML, CSS and JavaScript, which will help me in further development.</p>
+                </section>
+
+                <section class="section" id="projects">
+                    <div class="title-container">
+                       <h2 class="section-title">Work experience</h2>
+                    </div>
+                       <p class="section-element projects">Site layout using text tags, forms, blocks with comments, grids, etc. <br>
+                          <a href="https://vteramin.github.io" class="link img-link"><img class="img" src="assets/Example.png" alt="site" width="1893px" height="889px"></a>
+                       </p>
+                </section>
+
+                <section class="section" id="code">
+                    <div class="title-container">
+                       <h2 class="section-title">Code example</h2>
+                    </div>
+                       <p class="section-element code-instructions">Instructions: You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.</p>
+                       <p class="section-element code">function getMiddle(s) {
+
+  let x = s.length;
+
+  if (s.length % 2 == 0) {
+    return s[-1 + x/2] + s[0 + x/2];
+    } 
+    
+  else {
+    return s[-1 + (x+1)/2];
+    }
+}</p>
+                </section>
+            </div>  
+        
         </div>
     </main>
     <footer class = "footer">

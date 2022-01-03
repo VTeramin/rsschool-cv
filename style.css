@@ -1,3 +1,219 @@
-p {
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#282425;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.left-part-header {
+    display: flex;
+    float: left;
+    width: 40%;
+    height: 260px;
+    background-color: #341a1a;
+}
+
+.right-part-header {
+    display: flex;
+    float: right;
+    width: 60%;
+    height: 260px;
+    background-color: #fff1da;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.name {
+    font-family: 'Freestyle Script', sans-serif;
+    font-size: 130px;
+    color: #341a1a;
+    text-decoration: underline overline;
+    font-weight: normal;
+}
+
+.nav-list {
+    margin: 0;
+    margin-left: 80px;
+    padding: 0;
+    padding-left: 20px;
+    list-style: none;
+    border-left: 5px solid #64739c;
+}
+
+.nav-item {
+    margin: 6px 0;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+  
+.nav-item a:active {
+    color: rgba(255, 255, 255, 0.3);
+} 
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff1da;
+    font-size: 25px;
+}
+
+.left-part-main {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    width: 40%;
+    background-color: #341a1a;
+    padding: 0;
+    margin: 0;
+    height: 1320px;
+}
+
+.right-part-main {
+    display: flex;
+    float: right;
+    flex-direction: column;
+    width: 60%;
+    background: linear-gradient(#fff1da 50%, #57aab6);
+    padding: 0;
+    margin: 0;
+    height: 1320px;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.section {
+    color: #fff1da;
+}
+
+.title-container {
+    background-color: #341a1a;
+    margin: 10px 20px;
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: normal;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.section-element {
+    font-size: 25px;
+    margin: 0 30px 20px 50px;
+    margin-left: 50px;
+    padding-left: 20px;
+    border-left: 5px solid #341a1a;
+    color: #341a1a;
+}
+
+.img-link:hover {
+    opacity:0.8;
+}
+
+.code {
+    white-space: pre;
+}
+
+.title-container.left {
+    background-color: #fff1da;
+    margin: 10px 20px;
+}
+
+.section-title.left {
+    font-size: 40px;
+    font-weight: bolder;
+    padding-left: 20px;
+    margin: 0;
+    color: #341a1a;
+}
+
+.section-element.left {
+    font-size: 25px;
+    margin: 0 30px 20px 50px;
+    margin-left: 50px;
+    padding-left: 20px;
+    border-left: 5px solid #fff1da;
+    color: #fff1da;
+}
+
+.list {
+    font-size: 25px;
+    margin: 0 30px 20px 50px;
+    margin-left: 50px;
+    padding-left: 35px;
+    border-left: 5px solid #fff1da;
+    color: #fff1da;
+    line-height: 35px;
+}
+
+.contacts {
+    list-style: none;
+    padding-left: 15px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
     
+    background-color:#fff1da;
+    height: 80px;
+}
+
+.footer-element {
+    display: flex;
+    align-items: center;
+}
+      
+.year {
+    font-size: 25px;
+    font-weight: bolder;
+    color:#341a1a;
+    padding: 0;
+    margin: 0;
+}
+
+.gitHub-icon {
+    height: 90%;
+    width: auto;
+    margin: 5px;
+}
+
+.RS_School-icon {
+    height: 90%;
+    width: auto;
+    margin: 5px;
+}
+
+.footer-link {
+    color: #341a1a;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+    height: 80px;
+}
+
+.link-2 {
+    padding-top: 55px;
 }

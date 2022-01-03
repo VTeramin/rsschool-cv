@@ -81,7 +81,7 @@ html {
     float: left;
     flex-direction: column;
     width: 40%;
-    background: linear-gradient(#341a1a 50%, #57aab6);
+    background-color: #341a1a;
     padding: 0;
     margin: 0;
     height: 1320px;
@@ -173,5 +173,47 @@ html {
     padding-left: 15px;
 }
 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    
+    background-color:#fff1da;
+    height: 80px;
+}
 
+.footer-element {
+    display: flex;
+    align-items: center;
+}
       
+.year {
+    font-size: 25px;
+    font-weight: bolder;
+    color:#341a1a;
+    padding: 0;
+    margin: 0;
+}
+
+.gitHub-icon {
+    height: 90%;
+    width: auto;
+    margin: 5px;
+}
+
+.RS_School-icon {
+    height: 90%;
+    width: auto;
+    margin: 5px;
+}
+
+.footer-link {
+    color: #341a1a;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+    height: 80px;
+}
+
+.link-2 {
+    padding-top: 55px;
+}

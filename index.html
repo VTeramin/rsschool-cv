@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class = "header">
+        <div class="container">
+            <div class="left-part-header">
+                <nav class="nav">
+                    <ul class="nav-list">
+                      <li class="nav-item"><a href="#contacts" class="link">Contacts</a></li>
+                      <li class="nav-item"><a href="#summary" class="link">Summary</a></li>
+                      <li class="nav-item"><a href="#skills" class="link">Skills</a></li>
+                      <li class="nav-item"><a href="#code" class="link">Code</a></li>
+                      <li class="nav-item"><a href="#projects" class="link">Projects</a></li>
+                      <li class="nav-item"><a href="#education" class="link">Education</a></li>
+                      <li class="nav-item"><a href="#languages" class="link">Languages</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="right-part-header">
+                   <h1 class="name">Valery Voinilko</h1>
+            </div>
+        </div>
+    </header>
+    <main class = "main">
+        <div class="container main-container">
+            <div class="left-part-main">
+
+                <span class="section left">
+                    <img class="img" src="IMG_F_01.jpg" alt="avatar" width="5120" height="3840">
+                </span>
+
+                <section class="section left" id="education">
+                    <div class="title-container left">
+                       <h2 class="section-title left">Education</h2>
+                    </div>
+                       <div class="section-element left education">
+                           <ol class="list">
+                               <li>Specialist in the field of customs and foreign economic activity,<br>  
+                                Belarusian National Technical University, Minsk, Graduated in 2020;  
+                                </li>
+                               <li>Completed HTML Academy course.</li>
+                           </ol>
+                        </div>
+                </section>
+                
+                <section class="section left" id="languages">
+                    <div class="title-container left">
+                       <h2 class="section-title left">Languages</h2>
+                    </div>
+                       <div class="section-element left languages">
+                           <ul class="list languages">
+                               <li>English: Intermediate (B1);</li>
+                               <li>Chinese: HSK2.</li>
+                           </ul>
+                       </div>
+                </section>
+
+                <section class="section left" id="skills">
+                    <div class="title-container left">
+                       <h2 class="section-title left">Skills</h2>
+                    </div>
+                       <p class="section-element left skills">A good base in HTML and CSS: confident use of flexboxes, grids and selectors. Basic skills in JavaScript and GIT.</p>
+                </section>
+
+                <section class="section left" id="contacts">
+                    <div class="title-container left">
+                       <h2 class="section-title left">Contacts</h2>
+                    </div>
+                       <div class="section-element left contacts">
+                        <ul class="list contacts">
+                            <li>email: vteramin@gmail.com</li>
+                            <li>discord: Teramin#5657</li>
+                            <li>telegram: https://t.me/vteramin</li>
+                        </ul>
+                       </div>
+                </section>
+
+            </div>
+            <div class="right-part-main">
+
+                <section class="section" id="summary">
+                    <div class="title-container">
+                       <h3 class="section-title">Summary</h3>
+                    </div>
+                       <p class="section-element summary">I have been working in the field of customs control for over a year. Made a decision to change the field of activity. Recently I started studying in the field of web development. I plan to level up my basic skills in HTML, CSS and JavaScript, which will help me in further development.</p>
+                </section>
+
+                <section class="section" id="projects">
+                    <div class="title-container">
+                       <h3 class="section-title">Work experience</h3>
+                    </div>
+                       <div class="section-element projects">Site layout using text tags, forms, blocks with comments, grids, etc. <br>
+                          <a href="https://vteramin.github.io" class="link img-link"><img class="img" src="assets/Example.png" alt="site" width="1893" height="889"></a>
+                       </div>
+                </section>
+
+                <section class="section" id="code">
+                    <div class="title-container">
+                       <h3 class="section-title">Code example</h3>
+                    </div>
+                       <p class="section-element code-instructions">Instructions: You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.</p>
+                       <p class="section-element code">function getMiddle(s) {
+
+  let x = s.length;
+
+  if (s.length % 2 == 0) {
+    return s[-1 + x/2] + s[0 + x/2];
+    } 
+    
+  else {
+    return s[-1 + (x+1)/2];
+    }
+}</p>
+                </section>
+            </div>  
+        
+        </div>
+    </main>
+    <footer class = "footer">
+        <div class="container footer-container">
+
+          <div class="footer-element">  
+            <a class="gitHub footer-link link" href="https://github.com/VTeramin">
+                <img class="gitHub-icon" src="assets/GitHUB.png" alt="GitHub icon" width="512" height="512">
+            </a>
+            <a class="gitHub footer-link link link-2" href="https://github.com/VTeramin">My GitHub</a> 
+          </div>
+
+          <div class="footer-element">
+            <p class="year">Ⓒ 2022</p>
+          </div>
+
+          <div class="footer-element">
+            <a class="RS_School footer-link" href="https://rs.school/js/">
+                <img class="RS_School-icon" src="assets/rs_school_js.svg" alt="RS_School icon">
+            </a>
+          </div>
+
+        </div>
+    </footer>
+</body>
+</html>
